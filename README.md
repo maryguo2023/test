@@ -50,3 +50,4 @@ Load libraries in `page-header` region instead of `page-footer` so it is always 
 #### 1.1
 
 Switch to SweetAlert2 version 9.7.1 - see "Breaking Changes" at https://github.com/sweetalert2/sweetalert2/releases/tag/v9.0.0
+# RollbackExample
