@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<extension key="sweetalert" type="module">
+  <file>sweetalert</file>
+  <name>Sweet Alert</name>
+  <description>Adds support for the Sweet Alert popup library</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Mathieu Lutfy</author>
+    <email>mathieu@symbiotic.coop</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://lab.civicrm.org/extensions/sweetalert</url>
+    <url desc="Documentation">https://lab.civicrm.org/extensions/sweetalert</url>
+    <url desc="Support">https://lab.civicrm.org/extensions/sweetalert/issues</url>
+    <url desc="Licensing">https://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2021-08-23</releaseDate>
+  <version>1.5</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>5.35</ver>
+  </compatibility>
+  <civix>
+    <namespace>CRM/Sweetalert</namespace>
+  </civix>
+</extension>
