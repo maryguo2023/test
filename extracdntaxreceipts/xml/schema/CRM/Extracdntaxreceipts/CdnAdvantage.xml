@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+  <base>CRM/Extracdntaxreceipts</base>
+  <class>CdnAdvantage</class>
+  <name>cdntaxreceipts_advantage</name>
+  <comment>Holds description for advantage for each contribution</comment>
+  <log>true</log>
+
+  <field>
+    <name>id</name>
+    <type>int unsigned</type>
+    <required>true</required>
+    <comment>Unique CdnAdvantage ID</comment>
+  </field>
+  <primaryKey>
+    <name>id</name>
+    <autoincrement>true</autoincrement>
+  </primaryKey>
+
+  <field>
+    <name>contribution_id</name>
+    <type>int unsigned</type>
+    <comment>FK to Contribution</comment>
+  </field>
+
+  <field>
+    <name>advantage_description</name>
+    <type>varchar</type>
+    <length>255</length>
+    <comment>Description of Advantage</comment>
+  </field>
+
+
+</table>
